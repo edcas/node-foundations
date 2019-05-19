@@ -1,0 +1,15 @@
+{
+  "name": "foundations",
+  "version": "1.0.0",
+  "description": "Node foundations",
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Castro <eduard.cas07@gmail.com>",
+  "license": "ISC"
+}
