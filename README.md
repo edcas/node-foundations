@@ -2,15 +2,20 @@
 
 
 ```sh
-npm install
+# Install repo
+git clone https://github.com/edcas/node-foundations.git
+cd node-foundations
 
 #Install dependencies.
-node evaluations/first/index.js
+npm install
 
 #List all courses.
-node evaluations/first/index.js enroll
+node evaluations/first/index.js
 
 #List the options of the command to enroll a student to a course.
+node evaluations/first/index.js enroll
+
+#Enroll a student in a course.
 node evaluations/first/index.js enroll --course=1020 --name="John Doe" --document=1044928364
 
 #Show validation when a user tries to register in a course that does not exist
