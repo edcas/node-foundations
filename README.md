@@ -18,6 +18,9 @@ node evaluations/first/index.js enroll
 #Enroll a student in a course.
 node evaluations/first/index.js enroll --course=1020 --name="John Doe" --document=1044928364
 
+#The file with the enrolled users is called enrolled.txt.
+cat evaluations/first/enroll.txt # linux or git bash
+
 #Show validation when a user tries to register in a course that does not exist
 node evaluations/first/index.js enroll --course=1024 --name="John Doe" --document=1044928364
 ```

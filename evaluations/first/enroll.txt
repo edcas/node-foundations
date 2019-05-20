@@ -1,3 +1,0 @@
-Student John Doe - 1044928364 enroll in course:
-id: 1020, name: Node basic, duration: 80 hours, cost: 200.00 USD
-
